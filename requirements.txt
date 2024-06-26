@@ -17,3 +17,4 @@ albumentations
 einops
 omegaconf
 lpips
+six
