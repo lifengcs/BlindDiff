@@ -6,11 +6,24 @@ pre-trained models: https://pan.baidu.com/s/13-V0103KDDTVEuHji7ovjg (code:1024)
 + Python3
 + pytorch>=1.7
 ## Installations
-see ```requirements.txt```
+Run the command:
+```
+pip install -r requirement.txt
+```
+and
+```
+python setup.py develop
+```
 ## Train
-1. Download trainning set [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](https://github.com/sanghyun-son/EDSR-PyTorch) for the natural images and [FFHQ](https://www.kaggle.com/datasets/denislukovnikov/ffhq256-images-only) for the face images.
-2. Configure ```train.yml``` for your training.
+1. Download trainning dataset [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/) and [Flickr2K](https://github.com/sanghyun-son/EDSR-PyTorch) for the natural images and [FFHQ](https://www.kaggle.com/datasets/denislukovnikov/ffhq256-images-only) for the face images.
+2. Configure ```options/train.yml``` for your training.
 3. Run the command:
 ```
-python basicsr/train.py -opt=options/train/train_setting.yml
+python basicsr/train.py -opt=options/train_setting.yml
+```
+## Test
+1. Configure ```options/test.yml``` for your training. The testing dataset used in the paper is [here](https://pan.baidu.com/s/13-V0103KDDTVEuHji7ovjg).
+2. Run the command:
+```
+python basicsr/train.py -opt=options/test.yml
 ```
