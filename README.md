@@ -1,7 +1,9 @@
 # BlindDiff
 ## Introduction
 This is the official code of our work [*BlindDiff: Empowering Degradation Modelling in Diffusion Models for Blind Image Super-Resolution*](https://arxiv.org/abs/2403.10211).
+
 The pretrained model is [here](https://pan.baidu.com/s/1r8xE20NmehZcr1P3VKlB4A?pwd=ndq6).
+
 This repo is built on the basis of [BasicSR](https://github.com/XPixelGroup/BasicSR) and [guided-diffusion](https://github.com/openai/guided-diffusion), thanks for their open-sourcing!
 ## Environment
 + Python3
