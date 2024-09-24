@@ -30,3 +30,13 @@ python basicsr/train.py -opt=options/train_setting.yml
 ```
 python basicsr/train.py -opt=options/test.yml
 ```
+## Citation
+If you find our work useful in your research or publications, please consider citing:
+```
+@article{li2024blinddiff,
+  title={BlindDiff: Empowering Degradation Modelling in Diffusion Models for Blind Image Super-Resolution},
+  author={Li, Feng and Wu, Yixuan and Liang, Zichao and Cong, Runmin and Bai, Huihui, Zhao, Yao and Wang, Meng},
+  journal={arXiv preprint arXiv:2403.10211},
+  year={2024}
+}
+```
